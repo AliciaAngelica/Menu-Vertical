@@ -1,0 +1,36 @@
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li a {
+	width: 200px;
+	height: 40px;
+	display: block;
+	background: url(img/menu.png) no-repeat left;
+	text-decoration: none;
+	list-style-type: none;
+	text-indent: 40px;
+	line-height: 40px;
+	font-family: Gill Sans, sans-serif;
+	color: #000;
+	font-size: 15px;
+
+
+ }
+
+
+a:hover{
+	background-position: right;
+	color: #fff;
+}
+
+#home #navegacao .home a, 
+#quemsomos #navegacao .quemsomos a, 
+#servicos #navegacao .servicos a, 
+#noticias #navegacao .noticias a, 
+#contato #navegacao .contato a {
+	background-position: right;
+	color: #fff;
+}
+
